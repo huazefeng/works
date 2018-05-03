@@ -1,0 +1,215 @@
+.inner {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	background: #fff;
+}
+
+.clearfix:after {
+	content: '.';
+	width: 0;
+	height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+
+.top {
+	width: 100%;
+	height: 68px;
+}
+
+.top-l {
+	float: left;
+	margin-left: 30px;
+	width: 118px;
+	height: 115px;
+	background: orange;
+	text-align: center;
+	line-height: 115px;
+	color: #fff;
+}
+
+.top-r {
+	float: right;
+	margin-right: 70px;
+}
+
+.link-list {
+	padding-top: 25px;
+}
+
+.link-list li {
+	float: left;
+	margin: 0 5px;
+	line-height: 28px;
+	text-align: center;
+}
+
+.link-list li.active {
+	background: #f39900;
+}
+
+.link-list li a {
+	display: block;
+	width: 78px;
+	height: 28px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+	color: #000;
+}
+
+/*.banner {
+	
+}*/
+
+.swiper {
+	width: 100%;
+	height: 525px;
+	background: url(../img/公司网页-轮播图1.png) center 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+.tb {
+	width: 100%;
+	height: 45px;
+	background: url(../img/公司网页-黑条.png) center 0;
+}
+
+.nav {
+	width: 100%;
+	height: 190px;
+	background: #f39801;
+}
+
+.nav ul {
+	width: 650px;
+	padding-top: 50px;
+	margin: 0 auto;
+}
+
+.nav ul li {
+	float: left;
+	margin: 0 18px;
+	line-height: 26px;
+	font-size: 18px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #000;
+}
+
+.s-1 {
+	width: 100%;
+	height: 738px;
+	background: #d0d0d0;
+	position: relative;
+}
+
+.s-1 .content .c-l {
+	float: left;
+	width: 520px;
+	padding: 58px 0 0 110px;
+	box-sizing: border-box;
+}
+
+.s-1 .content .c-l h3 {
+	font-size: 40px;
+	font-weight: normal;
+	color: #444444;
+	margin-bottom: 15px;
+}
+
+.s-1 .content .c-l p {
+	font-size: 18px;
+	line-height: 30px;
+	color: #444444;
+}
+
+.s-1 .content .c-r {
+	float: left;
+	margin-top: -55px;
+}
+
+.s-1 .list {
+	margin-top: 58px;
+}
+
+.s-1 .list li {
+	float: left;
+	width: 285px;
+	height: 215px;
+	margin-right: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.kownMore {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.kownMore a {
+	display: block;
+	text-decoration: none;
+}
+
+.kownMore a span {
+	display: inline-block;
+	line-height: 26px;
+	font-size: 18px;
+	color: #2F2F2F;
+}
+.kownMore a span:first-child {
+	background: #2f2f2f;
+	color: #fff;
+	padding: 0 14px;
+	margin-right: 10px;
+}
+
+.item-head {
+	width: 100%;
+	height: 64px;
+	background: #fff;
+}
+
+.item-img {
+	width: 100%;
+	height: 152px;
+}
+
+.item-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.s-2 {
+	width: 100%;
+	height: 715px;
+	position: relative;
+}
+
+.s-3 {
+	width: 100%;
+	height: 560px;
+}
+
+.footer {
+	width: 100%;
+}
+
+.footer-bg {
+	width: 100%;
+	height: 478px;
+	background: url(../img/公司网页-地址底图.png) no-repeat center 0;
+}
+
+.bottom {
+	width: 100%;
+	height: 55px;
+	background: #000;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 55px;
+}
